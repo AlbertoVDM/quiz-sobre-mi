@@ -1,12 +1,15 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #0f172a, #1e293b);
-    color: white;
+    background-image: url("../assets/fondo_inicio.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    color: white;
 }
 
 .container {
